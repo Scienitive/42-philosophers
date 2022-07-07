@@ -14,7 +14,7 @@ One or more philosophers sit at a round table. There is a large bowl of spaghett
 
 Philosophers repeat three actions `eating -> sleeping -> thinking`. When eating, philosophers should use 2 forks one from right and one from left. After eating philosophers should put down their forks.
 
-You can see the subject<a href="https://github.com/Scienitive/42-philosophers/blob/main/en.subject.pdf">here</a>.
+You can see the subject <a href="https://github.com/Scienitive/42-philosophers/blob/main/en.subject.pdf">here</a>.
 
 ## How It Works
 
@@ -29,8 +29,8 @@ After compiling it use it like `./philo [number of philosophers] [time to die in
 The last argument is optional you can leave it blank if you want.
 
 Some examples:
-`./philo 1 800 200 200` The philosopher should not eat and should die.
-`./philo 5 800 200 200` No philosopher should die.
-`./philo 5 800 200 200 7` No philosopher should die and the simulation should stop when every philosopher has eaten at least 7 times.
-`./philo 4 410 200 200` No philosopher should die.
-`./philo 4 310 200 100` One philosopher should die.
+- `./philo 1 800 200 200` The philosopher should not eat and should die.
+- `./philo 5 800 200 200` No philosopher should die.
+- `./philo 5 800 200 200 7` No philosopher should die and the simulation should stop when every philosopher has eaten at least 7 times.
+- `./philo 4 410 200 200` No philosopher should die.
+- `./philo 4 310 200 100` One philosopher should die.
